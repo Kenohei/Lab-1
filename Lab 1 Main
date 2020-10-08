@@ -1,0 +1,21 @@
+/****************************************************************************************************
+CIS 22C
+Lab 1
+Author: Laban Tran
+(Enter a one line statement explaining the purpose of the assignment.)
+****************************************************************************************************/
+
+#include <iostream>
+#include "Dollar.h"
+#include "CIS22C_Dollar.h"
+#include "Wallet.h"
+using namespace std;
+
+int main() {
+
+	Wallet<Dollar> wallet;
+
+	system("pause");
+
+	return 0;
+}
